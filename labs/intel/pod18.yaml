@@ -48,11 +48,11 @@ jumphost:
   interfaces:
     - name: 'nic1'
       address: 10.10.180.20
-      mac_address: "A4:BF:01:16:31:96"
+      mac_address: "a4:bf:01:16:31:96"
       vlan: native
     - name: 'nic2'
       address: 10.10.181.20
-      mac_address: "A4:BF:01:16:31:97"
+      mac_address: "a4:bf:01:16:31:97"
       vlan: native
 nodes:
   - name: pod18-node1
@@ -85,37 +85,37 @@ nodes:
         speed: 1gb
         features:
         address: 10.10.180.21
-        mac_address: "A4:BF:01:14:40:16"
+        mac_address: "a4:bf:01:14:40:16"
         vlan: native
       - name: 'nic2'
         speed: 1gb
         features:
         address: 10.10.181.21
-        mac_address: "A4:BF:01:14:40:17"
+        mac_address: "a4:bf:01:14:40:17"
         vlan: native
       - name: 'nic3'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.182.21
-        mac_address: "3C:FD:FE:A4:9F:A0"
+        mac_address: "3c:fd:fe:a4:9f:a0"
         vlan: native
       - name: 'nic4'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.183.21
-        mac_address: "3C:FD:FE:A4:9F:A1"
+        mac_address: "3c:fd:fe:a4:9f:a1"
         vlan: 1183
       - name: 'nic5'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.184.21
-        mac_address: "3C:FD:FE:A4:9F:A2"
+        mac_address: "3c:fd:fe:a4:9f:a2"
         vlan: native
       - name: 'nic6'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.185.21
-        mac_address: "3C:FD:FE:A4:9F:A3"
+        mac_address: "3c:fd:fe:a4:9f:a3"
         vlan: native
   - name: pod18-node2
     node: *nodeparas
@@ -129,37 +129,37 @@ nodes:
         speed: 1gb
         features:
         address: 10.10.180.22
-        mac_address: "A4:BF:01:16:31:1E"
+        mac_address: "a4:bf:01:16:31:1e"
         vlan: native
       - name: 'nic2'
         speed: 1gb
         features:
         address: 10.10.181.22
-        mac_address: "A4:BF:01:16:31:1F"
+        mac_address: "a4:bf:01:16:31:1f"
         vlan: native
       - name: 'nic3'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.182.22
-        mac_address: "3C:FD:FE:A4:A0:30"
+        mac_address: "3c:fd:fe:a4:a0:30"
         vlan: native
       - name: 'nic4'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.183.22
-        mac_address: "3C:FD:FE:A4:A0:31"
+        mac_address: "3c:fd:fe:a4:a0:31"
         vlan: 1183
       - name: 'nic5'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.184.22
-        mac_address: "3C:FD:FE:A4:A0:32"
+        mac_address: "3c:fd:fe:a4:a0:32"
         vlan: native
       - name: 'nic6'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.185.22
-        mac_address: "3C:FD:FE:A4:A0:33"
+        mac_address: "3c:fd:fe:a4:a0:33"
         vlan: native
   - name: pod18-node3
     node: *nodeparas
@@ -173,37 +173,37 @@ nodes:
         speed: 1gb
         features:
         address: 10.10.180.23
-        mac_address: "A4:BF:01:16:30:F6"
+        mac_address: "a4:bf:01:16:30:f6"
         vlan: native
       - name: 'nic2'
         speed: 1gb
         features:
         address: 10.10.181.23
-        mac_address: "A4:BF:01:16:30:F7"
+        mac_address: "a4:bf:01:16:30:f7"
         vlan: native
       - name: 'nic3'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.182.23
-        mac_address: "3C:FD:FE:A4:9E:48"
+        mac_address: "3c:fd:fe:a4:9e:48"
         vlan: native
       - name: 'nic4'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.183.23
-        mac_address: "3C:FD:FE:A4:9E:49"
+        mac_address: "3c:fd:fe:a4:9e:49"
         vlan: 1183
       - name: 'nic5'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.184.23
-        mac_address: "3C:FD:FE:A4:9E:4A"
+        mac_address: "3c:fd:fe:a4:9e:4a"
         vlan: native
       - name: 'nic6'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.185.23
-        mac_address: "3C:FD:FE:A4:9E:4B"
+        mac_address: "3c:fd:fe:a4:9e:4b"
         vlan: native
   - name: pod18-node4
     node: *nodeparas
@@ -217,37 +217,37 @@ nodes:
         speed: 1gb
         features:
         address: 10.10.180.24
-        mac_address: "A4:BF:01:14:72:0D"
+        mac_address: "a4:bf:01:14:72:0d"
         vlan: native
       - name: 'nic2'
         speed: 1gb
         features:
         address: 10.10.181.24
-        mac_address: "A4:BF:01:14:72:0E"
+        mac_address: "a4:bf:01:14:72:0e"
         vlan: native
       - name: 'nic3'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.182.24
-        mac_address: "3C:FD:FE:A4:9D:E8"
+        mac_address: "3c:fd:fe:a4:9d:e8"
         vlan: native
       - name: 'nic4'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.183.24
-        mac_address: "3C:FD:FE:A4:9D:E9"
+        mac_address: "3c:fd:fe:a4:9d:e9"
         vlan: 1183
       - name: 'nic5'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.184.24
-        mac_address: "3C:FD:FE:A4:9D:EA"
+        mac_address: "3c:fd:fe:a4:9d:ea"
         vlan: native
       - name: 'nic6'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.185.24
-        mac_address: "3C:FD:FE:A4:9D:EB"
+        mac_address: "3c:fd:fe:a4:9d:eb"
         vlan: native
   - name: pod18-node5
     node: *nodeparas
@@ -261,35 +261,35 @@ nodes:
         speed: 1gb
         features:
         address: 10.10.180.25
-        mac_address: "A4:BF:01:14:71:68"
+        mac_address: "a4:bf:01:14:71:68"
         vlan: native
       - name: 'nic2'
         speed: 1gb
         features:
         address: 10.10.181.25
-        mac_address: "A4:BF:01:14:71:69"
+        mac_address: "a4:bf:01:14:71:69"
         vlan: native
       - name: 'nic3'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.182.25
-        mac_address: "3C:FD:FE:A4:A1:08"
+        mac_address: "3c:fd:fe:a4:a1:08"
         vlan: native
       - name: 'nic4'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.183.25
-        mac_address: "3C:FD:FE:A4:A1:09"
+        mac_address: "3c:fd:fe:a4:a1:09"
         vlan: 1183
       - name: 'nic5'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.184.25
-        mac_address: "3C:FD:FE:A4:A1:0A"
+        mac_address: "3c:fd:fe:a4:a1:0a"
         vlan: native
       - name: 'nic6'
         speed: 10gb
         features: 'dpdk|sriov'
         address: 10.10.185.25
-        mac_address: "3C:FD:FE:A4:A1:0B"
+        mac_address: "3c:fd:fe:a4:a1:0b"
         vlan: native
